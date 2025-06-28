@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines a class Rectangle with width and height properties."""
+"""This module defines a Rectangle class with width and height properties."""
 
 
 class Rectangle:
@@ -31,13 +31,4 @@ class Rectangle:
             TypeError: If value is not an integer.
             ValueError: If value is less than 0.
         """
-        if not isinstance(value, int):
-            raise TypeError("width must be an integer")
-        if value < 0:
-            raise ValueError("width must be >= 0")
-        self.__width = value
-
-    @property
-    def height(self):
-        """Retrieve the height of
-
+        if not isinstance(value, i
